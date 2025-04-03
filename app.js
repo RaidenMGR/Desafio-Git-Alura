@@ -1,7 +1,7 @@
 //Altere o conteúdo da tag h1 com document.querySelector e atribua o seguinte texto: Hora do Desafio.
 let titulo = document.querySelector('h1');
 
-titulo.innerHTML = 'Hora do Desafio';
+titulo.innerHTML = 'Esta na Hora do Desafio';
 
 //Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
 function VerificarBotao() {
@@ -16,15 +16,15 @@ function VerificarAlerta(){
 //  Em seguida, exiba um alerta com a mensagem concatenando a resposta com o texto: Estive em {cidade} e lembrei de você.
 
 function VerificarCidade(){
- let cidade = prompt('diga o nome de uma cidade');
+ let cidade = prompt('digite o nome de uma cidade');
  alert(`estive em ${cidade} e lembrei de você`);
 }
 
 //Ao clicar no botão soma, peça 2 números inteiros e exiba o resultado da soma em um alerta.
 
 function VerificarSoma(){
-    let valor1 = parseInt(prompt('digite um numero inteiro'));
-    let valor2 = parseInt(prompt('digite outro numero inteiro'));
+    let valor1 = parseInt(prompt('digite um numero '));
+    let valor2 = parseInt(prompt('digite outro numero '));
     resultado = valor1 + valor2;
     alert(`a soma de ${valor1} e ${valor2} é ${resultado}`);
 }
